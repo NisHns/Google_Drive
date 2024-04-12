@@ -1,10 +1,13 @@
-##Google Drive Clone
+## Google Drive Clone
+
 This project is a clone of Google Drive built with React. It aims to replicate the core functionalities of Google Drive, such as uploading files, viewing them in a grid or list layout, and accessing file details.
 
-#Live Demo
+# Live Demo
+
 Check out the live demo here.
 
-#Technologies Used
+# Technologies Used
+
 React: JavaScript library for building user interfaces
 Firebase: Cloud-based platform for building and managing web and mobile applications
 Firebase Authentication: Securely authenticate users
