@@ -54,7 +54,7 @@ function App() {
       ) : (
         <LoginWrapper>
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/2295px-Google_Drive_icon_%282020%29.svg.png" alt="gdrive" />
-          <button onClick={signIn}>Login to Google Drive</button>
+          <button onClick={signIn}>Login</button>
         </LoginWrapper>
       )
       }

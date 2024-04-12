@@ -6,6 +6,7 @@ import ListIcon from '@mui/icons-material/List';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import { Avatar } from '@mui/material';
 
 const DataContainer = styled.div`
     flex: 1 1;
@@ -75,7 +76,7 @@ const DataListRow = styled.div`
     }
 `;
 
-const Data = () => {
+const Data = ({ photoURL }) => {
     const [files, setFiles] = useState([]);
 
     useEffect(() => {
@@ -130,10 +131,10 @@ const Data = () => {
                                 <a href={file.url} target='_blank' rel="noopener noreferrer">
                                     <p><InsertDriveFileIcon /> {file.name}</p>
                                 </a>
-                                <p>Owner </p>
+                                <p><Avatar src={photoURL} />Me </p>
                                 <p>{new Date().toUTCString()}</p>
                                 {/* Assuming timestamp and size properties are not available in the file object */}
-                                <p>{file.size}</p>
+                                <p>{1.4}</p>
                             </DataListRow>
                         ))}
                     </div>
