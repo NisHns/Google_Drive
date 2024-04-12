@@ -1,12 +1,12 @@
-## Google Drive Clone
+# Google Drive Clone
 
 This project is a clone of Google Drive built with React. It aims to replicate the core functionalities of Google Drive, such as uploading files, viewing them in a grid or list layout, and accessing file details.
 
-# Live Demo
+## Live Demo
 
 Check out the live demo here.
 
-# Technologies Used
+## Technologies Used
 
 React: JavaScript library for building user interfaces
 Firebase: Cloud-based platform for building and managing web and mobile applications
@@ -17,3 +17,10 @@ User authentication: Users can sign up, sign in, and sign out securely.
 File upload: Users can upload files of various formats.
 File listing: Files are displayed in both grid and list layouts.
 File details: Users can view details such as file name, owner, last modified date, and file size.
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## Hosted Link
+
+https://google-drive-clone-seven.vercel.app/
