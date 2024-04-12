@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    height: 5%;
+}
+
+input {
+    border-radius: 10px;
+    width: 50%;
+    background-color: whitesmoke;
+    size: 20px;
+}
